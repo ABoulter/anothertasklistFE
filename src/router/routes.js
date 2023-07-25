@@ -10,6 +10,9 @@ const routes = [
     path: "/",
     component: HomePage,
     name: "home",
+    meta: {
+      guest: true,
+    },
   },
   {
     path: "/tasks",
